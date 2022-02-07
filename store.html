@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helpify store</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  
+    <link rel="stylesheet" href="store.css">
+
+</head>
+<body>
+
+
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">helpify</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>hand watches</span>
+                <h3> smart watches</h3>
+                <p></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="watch.jpg" class="shoe" alt="">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>Gucci</span>
+                <h3>gucci handbags</h3>
+                <p>Luxurious embellishments elevate Gucci’s 'Dionysus' tote bag to a profoundly prestigious rank amongst other bags. This black leather and cotton accessory is accented with a mix of modern and vintage detailing.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="gucci.jpg" class="shoe" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>laptop</span>
+                <h3>hp laptops</h3>
+                <p>HP 15 (2021) AMD Ryzen 3-3250 8 GB RAM, 1TB HDD + 256GB SSD, 15.6 inches FHD Screen, Windows 10, MS Office Thin Light Laptop, 1.82kg (15s-gr0012AU), Silver</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="laptop.jpg" class="shoe" alt="">
+              
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>helpify Quick is your one-stop online shopping destination for all your daily use essentials, electronics, and much more. Order toiletries, electronics, home appliances, eatables, basic electrical supplies, sporting equipment, fresh veggies, and fruits online to experience quick service right to your doorstep. With the helpify 90 min delivery service, your order will reach you in under 90 minutes so that you can smoothly carry on your daily activities without a pause</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 days replacements</h3>
+            <p>Most items purchased from sellers listed on helpify.in are returnable within the return window, except those that are explicitly identified as not returnable. 
+
+                For the products that are returned by the customer, the refund is issued to the original payment method (in case of pre-paid transactions) or to the bank account / as helpify Pay balance (in case of Pay on Delivery orders)</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 support</h3>
+            <p> In addition to enhanced technical support and architectural guidance, Business Support provides access to third-party software support, documentation and forums, AWS Trusted Advisor, AWS Personal Health Dashboard, AWS Support API, and launch and event planning.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="soes2.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="clothing.jpg" alt="">
+            <div class="content">
+                <h3>trendy fashion</h3>
+                <div class="price">$150 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="home2.jpg" alt="">
+            <div class="content">
+                <h3>home appliances</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="jwellery.jpg" alt="">
+            <div class="content">
+                <h3>jwellery</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="phone.jpg" alt="">
+            <div class="content">
+                <h3>latest smart phones</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="encyco.tif" alt="">
+            <div class="content">
+                <h3>latest encyclopedia</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="row">
+        <div class="image-container">
+           
+            <div class="big-image">
+                <img src="head.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>boAT rockerz</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>BoAt Rockerz 660 With Wear Detection 60 Hours Playtime Bluetooth Headset (Active Black, On The Ear)
+.</p>
+            <div class="price">$80.99 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+           
+            <div class="big-image">
+                <img src="jeans.jpg" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>high rise jeans</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Finished with a classic styling and cool, these kotty flared cotton Lycra jeans will certainly see you season after season.these high rise jeans are extremely comfortable to wear.</p>
+            <div class="price">$80.99 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+          
+            <div class="big-image">
+                <img src="re.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>324L Twin Cooling Plus™ Double Door Refrigerator </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Only Twin Cooling Plus™ creates a favourable environment for preserving fresh food in the fridge with 70% humidity, compared to 30% in a conventional Frost Free Refrigerator. So it keeps ingredients fresh for longer without drying out.
+                Deliciously tasty, odor free frozen food</p>
+            <div class="price">$80.99 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="cus.webp" alt="">
+            <h3>customer 1</h3>
+            <p>I have been shopping for more than 3 years and I did not find any complaint in any product. All the items ordered by me, were delivered before the expected date of delivery and this happens every time so I can conclude that it is perfect and make the delivery of items happen in time and website is completely reliable.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="cus2.png" alt="">
+            <h3>customer 2</h3>
+            <p> I am a great admirer of helpify as it offers a variety of huge products ranging from electronic, mobiles, clothing, shoes, cooking etc. It also gives us the pop up indication of new or upcoming products. it holds the monopoly of oneplus and many high end phones.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="cus3.jpg" alt="">
+            <h3>customer 3</h3>
+            <p>I loved that product very very much. It is a wonderful multi colour dress from Harpa manufacturers provided by helpify.
+
+                The dress has zipper in it and quite comfortable.
+                
+                I wore it in summers and winters too with a woolen sweater because of the material quality was too good.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>monthly newsletter</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil.</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+
+</section>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">paris</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+            <a href="#">review</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">newsletter</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit"> all rights reserved</div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="store.js"></script>
+    
+</body>
+</html>
